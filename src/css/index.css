@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div#container {
+  width: 1548px;
+  margin: auto;
+  background-color: red;
+}
+
+div#container div#section1 {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1548px;
+  height: 668px;
+}
+
+div#container div#section1 div#navbar {
+  background-color: #fff;
+  height: 80px;
+  width: 1153px;
+  margin: auto;
+  margin-top: 8px;
+}
+
+div#container div#section1 div#navbar h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #0095ff;
+  background-color: yellow;
+  width: 97px;
+  padding-left: 29px;
+  padding-top: 27px;
+}
